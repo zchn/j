@@ -46,9 +46,7 @@ problem in mobile, web and binary programs. Most of my research shares the theme
 of using formal methods and program analysis to design and implement practical
 systems for vulnerability discovery and program hardening.
 
-<!---
-<h2 id="publication">Publication</h2>
-
+<h3 id="publication">Publication</h3>
 
 <p>
   <strong>ASPIRE: Iterative Specification Synthesis for Security.</strong>
@@ -122,56 +120,10 @@ in the Proceedings of the 32nd IEEE Symposium on Security and Privacy,
 in the Proceedings of the 6th ACM Symposium on Information, Computer and
 Communications Security (<strong>ASIACCS'11</strong>), Hong Kong, March 22-24 2011.
 [<a href="papers/asiaccs11-webpatrol.pdf">PDF</a>][<a href="papers/asiaccs11-chen.bib">BIB</a>][<a href="papers/asiaccs11-chenslides.pdf">Slides</a>]</p>
--->
 
-<!--
-<h2 id="courses">Courses</h2>
-
-<p>Some of the courses I’ve taken:</p>
-
-<ul>
-  <li>Fall 2010
-    <ul>
-      <li><a href="http://www.cs.berkeley.edu/~brewer/cs262/">CS262a: Advanced Topics in Computer Systems</a></li>
-      <li><a href="http://www.icir.org/vern/cs294-28/">CS294-28: Internet/Network Security</a></li>
-    </ul>
-  </li>
-  <li>Spring 2011
-    <ul>
-      <li><a href="http://www.cs.berkeley.edu/~dawnsong/teaching/s11-cs261/">CS261: Computer Security (TA)</a></li>
-      <li><a href="http://www.cs.berkeley.edu/~dawnsong/teaching/s11-cs294/">CS294-65: Privacy Technologies: From Theory to Practice</a></li>
-      <li><a href="http://www.eecs.berkeley.edu/~sseshia/219c/">EECS219c: Computer-Aided Verification</a></li>
-    </ul>
-  </li>
-  <li>Fall 2011
-    <ul>
-      <li><a href="http://www.cs.berkeley.edu/~sinclair/cs271/f11.html">CS271: Randomness and Computation</a></li>
-      <li><a href="http://fa11.pbworks.com/">CS294-70: Automated Bug Finding and Debugging</a></li>
-    </ul>
-  </li>
-  <li>Spring 2012
-    <ul>
-      <li><a href="http://www-inst.eecs.berkeley.edu/~cs302/sp12/">CS302: Designing Computer Science Education</a></li>
-    </ul>
-  </li>
-  <li>Fall 2012
-    <ul>
-      <li><a href="https://sites.google.com/a/eecs.berkeley.edu/cs263-fa12/">CS263: Principles of Programming Languages</a></li>
-    </ul>
-  </li>
-</ul>
--->
-
-<h2 id="misc">Useful Links</h2>
+<h3 id="misc">Useful Links</h3>
 
 <p><a href="http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm">Security Conference Rankings</a> by <a href="http://faculty.cs.tamu.edu/guofei/"> Guofei Gu </a></p>
 
 <!-- <p><a href="http://www.google.com/calendar/embed?src=kevin.zchn%40gmail.com&amp;ctz=America/Los_Angeles">Here</a> is my availability every day.</p> -->
-
-<!--
-<p>
-A handy screen and camera broadcasting tool based on WebRTC:
-<a href="https://www.cs.berkeley.edu/~kevinchn/smt/smt.html">https://www.cs.berkeley.edu/~kevinchn/smt/smt.html</a>. See <a href="https://webrtc-experiment.appspot.com/">https://webrtc-experiment.appspot.com/</a> for more details.
-</p>
--->
 
