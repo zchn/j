@@ -15,7 +15,7 @@ baseurl: "/j"
 url: "http://ckev.in" # the base hostname & protocol for your site
 twitter_username: zchn
 github_username:  zchn
-theme: dinky
+theme: jekyll-theme-dinky
 
 # Build settings
 markdown: kramdown
