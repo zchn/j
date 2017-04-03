@@ -1,19 +1,5 @@
 # About Kevin Zhijie Chen
 
-<!---
-          Security Software Engineer<br />
-          Google Inc. (New York)<br />
-          Email: k_@ berkeley.edu<br />
-          Name in Chinese: <br />
-          <img src="images/czj.png" width="30%" /><br />
-        <p class="sidenote">
-          Links:<br />
-          <a href="https://www.linkedin.com/in/kevinchn">My LinkedIn</a><br />
-          <a href="https://scholar.google.com/citations?user=Y6ue3dYAAAAJ">My Google Scholar Page</a><br />
-          <a href="http://cgao.me/">My Wife</a><br />
-        </p>
--->
-
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually more up-to-date than this page.
 
 I am a Security Software Engineer at Google New York, working on Google's [Data
@@ -52,7 +38,7 @@ systems for vulnerability discovery and program hardening.
 <br />
 To appear in the 15th Workshop on Hot Topics in Operating Systems
 (<strong>HotOS'15</strong>), Kartause Ittingen, Switzerland, May, 2015.
-[<a href="papers/hotos15-aspire.pdf">PDF</a>]
+[<a href="{{ site.baseurl }}/papers/hotos15-aspire.pdf">PDF</a>]
 </p>
 
 
@@ -63,7 +49,7 @@ Chao Zhang, Mehrdad Niknami, <u>Kevin Zhijie Chen</u>, Chengyu Song, Zhaofeng Ch
 <br />
 To appear in the 34th Annual IEEE International Conference on Computer Communications
 (<strong>InfoCom'15</strong>), Hong Kong, China, April, 2015.
-[<a href="papers/infocom15-jitscope.pdf">PDF</a>]
+[<a href="{{ site.baseurl }}/papers/infocom15-jitscope.pdf">PDF</a>]
 </p>
 
 
@@ -74,7 +60,7 @@ Chao Zhang, Chengyu Song, <u>Kevin Zhijie Chen</u>, Zhaofeng Chen, Dawn Song
 <br />
 To appear in the Network and Distributed System Security Symposium,
 (<strong>NDSS'15</strong>), San Diego, February, 2015.
-[<a href="papers/ndss15-vtint.pdf">PDF</a>]
+[<a href="{{ site.baseurl }}/papers/ndss15-vtint.pdf">PDF</a>]
 </p>
 
 <p>
@@ -85,8 +71,8 @@ Edward XueJun Wu, Martin Rinard, Dawn Song,
 <br />
 in the Proceedings of the 20th Annual Network and Distributed System Security Symposium,
 (<strong>NDSS’13</strong>), San Diego, February 24-27, 2013.
-[<a href="papers/ndss13-pegasus.pdf">PDF</a>]
-[<a href="papers/ndss13-pegasus.bib">BIB</a>]
+[<a href="{{ site.baseurl }}/papers/ndss13-pegasus.pdf">PDF</a>]
+[<a href="{{ site.baseurl }}/papers/ndss13-pegasus.bib">BIB</a>]
 [<a href="https://docs.google.com/presentation/d/1vqYqEm7D91KqvymTfL4WF_C-q6axqzsDjUKo4ap8-Is/edit?usp=sharing">Slides</a>]
 </p>
 
@@ -97,7 +83,7 @@ Chia Yuan Cho, Domagoj Babic, Pongsin Poosankam, <u>Kevin Zhijie Chen</u>, Dawn 
 <br />
 in the Proceedings of the 20th USENIX Security Symposium,
 (<strong>USENIX Security'11</strong>), San Francisco, August 10-12, 2011.
-[<a href="papers/usenixsec11-mace.pdf">PDF</a>][<a href="papers/usenixsec11-cbpcsw.bib">BIB</a>]</p>
+[<a href="{{ site.baseurl }}/papers/usenixsec11-mace.pdf">PDF</a>][<a href="{{ site.baseurl }}/papers/usenixsec11-cbpcsw.bib">BIB</a>]</p>
 
 <p>
   <strong>Differential Slicing: Identifying Causal Execution Differences for Security Applications.</strong>
@@ -107,7 +93,7 @@ Poosankam, Daniel Reynaud, Dawn Song,
 <br />
 in the Proceedings of the 32nd IEEE Symposium on Security and Privacy,
 (<strong>Oakland'11</strong>), Oakland, May 22-25 2011.
-[<a href="papers/oakland11-diffslice.pdf">PDF</a>][<a href="papers/oakland11-jccmprs.bib">BIB</a>]</p>
+[<a href="{{ site.baseurl }}/papers/oakland11-diffslice.pdf">PDF</a>][<a href="{{ site.baseurl }}/papers/oakland11-jccmprs.bib">BIB</a>]</p>
 
 <p>
   <strong>WebPatrol: Automated Collection and Replay of Web-based Malware Scenarios.</strong>
@@ -116,7 +102,7 @@ in the Proceedings of the 32nd IEEE Symposium on Security and Privacy,
 <br />
 in the Proceedings of the 6th ACM Symposium on Information, Computer and
 Communications Security (<strong>ASIACCS'11</strong>), Hong Kong, March 22-24 2011.
-[<a href="papers/asiaccs11-webpatrol.pdf">PDF</a>][<a href="papers/asiaccs11-chen.bib">BIB</a>][<a href="papers/asiaccs11-chenslides.pdf">Slides</a>]</p>
+[<a href="{{ site.baseurl }}/papers/asiaccs11-webpatrol.pdf">PDF</a>][<a href="{{ site.baseurl }}/papers/asiaccs11-chen.bib">BIB</a>][<a href="{{ site.baseurl }}/papers/asiaccs11-chenslides.pdf">Slides</a>]</p>
 
 <h3 id="misc">Useful Links</h3>
 

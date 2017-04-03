@@ -9,10 +9,14 @@
 title: Kevin Chen
 email: k_@berkeley.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Just trying to set up Jekyll and see if it works.
-  This is a second line
+  I am a Security Software Engineer at Google New York.
+  My name in Chinese is 陈志杰.
 baseurl: "/j"
 url: "http://ckev.in" # the base hostname & protocol for your site
+linkedin: "https://www.linkedin.com/in/kevinchn"
+google_scholar: "https://scholar.google.com/citations?user=Y6ue3dYAAAAJ"
+chloe: "http://cgao.me/"
+
 twitter_username: zchn
 github_username:  zchn
 

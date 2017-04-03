@@ -15,9 +15,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <h1 class="header"><a href="{{site.baseurl}}/about/">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
         <ul>
+            <li><a class="buttons linkedin" href="{{ site.linkedin }}">Linkedin Profile</a></li>
+            <li><a class="buttons google" href="{{ site.google_scholar }}">Google Scholar</a></li>
+            <li><a class="buttons heart" href="{{ site.chloe }}">My Wife</a></li>
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
         </ul>
       </header>
