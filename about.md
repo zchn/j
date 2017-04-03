@@ -1,3 +1,6 @@
+---
+permlink: /about/
+---
 # About Kevin Zhijie Chen
 
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually more up-to-date than this page.
