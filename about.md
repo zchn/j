@@ -1,8 +1,5 @@
----
-layout: page
-title: About Kevin Zhijie Chen
-permalink: /about/
----
+# About Kevin Zhijie Chen
+
 <!---
           Security Software Engineer<br />
           Google Inc. (New York)<br />
@@ -15,7 +12,7 @@ permalink: /about/
           <a href="https://scholar.google.com/citations?user=Y6ue3dYAAAAJ">My Google Scholar Page</a><br />
           <a href="http://cgao.me/">My Wife</a><br />
         </p>
--->          
+-->
 
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually more up-to-date than this page.
 
@@ -126,4 +123,3 @@ Communications Security (<strong>ASIACCS'11</strong>), Hong Kong, March 22-24 20
 <p><a href="http://faculty.cs.tamu.edu/guofei/sec_conf_stat.htm">Security Conference Rankings</a> by <a href="http://faculty.cs.tamu.edu/guofei/"> Guofei Gu </a></p>
 
 <!-- <p><a href="http://www.google.com/calendar/embed?src=kevin.zchn%40gmail.com&amp;ctz=America/Los_Angeles">Here</a> is my availability every day.</p> -->
-
