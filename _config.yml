@@ -18,7 +18,6 @@ github_username:  zchn
 
 # Theme settings
 theme: jekyll-theme-dinky
-show_downloads: false
 google_analytics: UA-41120617-2
 
 # Build settings
