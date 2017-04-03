@@ -1,5 +1,5 @@
 ---
-permlink: /about/
+permalink: /about/
 ---
 # About Kevin Zhijie Chen
 
