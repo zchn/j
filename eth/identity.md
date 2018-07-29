@@ -1,4 +1,4 @@
-## Ethereum and Keybase
+## Identity
 
 1.  EIP 725: Proxy Identity. Proxy contract for key management and
     execution, to establish a Blockchain
