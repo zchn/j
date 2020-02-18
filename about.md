@@ -6,7 +6,7 @@ permalink: /about/
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually
 more up-to-date than this page.
 
-I am a Security Software Engineer at Google New York, working on
+I was a Security Software Engineer at Google New York, working on
 Google's [Data Protection](https://youtu.be/K7EN-1FW8zY?t=32m9s)
 infrastructure to make sure all user data are properly protected. I
 got my Ph.D in [Computer Science](https://www.cs.berkeley.edu/)
