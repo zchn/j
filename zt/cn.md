@@ -5,8 +5,8 @@ date: 2021-07-01 10:00:00 +0800
 
 # 零信任实践分享
 
-陈志杰,  前谷歌数据保护团队 Tech Lead, http://ckev.in/
-
+陈志杰,  前谷歌数据保护团队 Tech Lead, [http://ckev.in/](http://ckev.in/)
+Permlink: [https://ckev.in/j/zt/cn.html](https://ckev.in/j/zt/cn.html)
 版本：20210708
 
 ## 背景介绍
