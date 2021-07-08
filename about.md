@@ -1,4 +1,5 @@
 ---
+title: About Me
 permalink: /about/
 ---
 # About Kevin Zhijie Chen
