@@ -13,9 +13,19 @@ date: 2021-07-01 10:00:00 +0800
 
 本文的笔者是陈志杰，2015至2020年有幸参与了谷歌生产环境零信任（Zero Trust in Production Environments）的理论和实践。在此背景下开发的 Binary Authorization for Borg （BAB） 系统已经在谷歌生产环境中实现了全面覆盖：任何人在生产环境中以任何服务的身份运行任何软件包之前，都必须为目标服务建立一个足够强的BAB安全策略。不符合BAB安全策略的程序将不会被允许以相应服务的身份运行。
 
-![](img/prodenv.png)
+![图：Binary Authorization for Borg](img/prodenv.png)
 
-在实现和推广这种生产环境零信任的过程中，BAB团队走了不少弯路，但也收获了很多经验。从2017年开始，BAB团队开始把这些实践经验上升到理论，并陆续发布了一系列的白皮书（BeyondProd，Binary Authorization for Borg, SLSA），书籍（Building Secure and Reliable Systems）以及报告（Evolve to zero trust security model with Anthos security, Zero Touch Prod）。同时也开始将这种零信任理念推广到更多应用场景，包括公有云上的零信任，公有云自身基础设施的零信任，安卓和Chrome自身及其App的开发零信任。
+在实现和推广这种生产环境零信任的过程中，BAB团队走了不少弯路，但也收获了很多经验。从2017年开始，BAB团队开始把这些实践经验上升到理论，并陆续发布了一系列的
+白皮书（
+[BeyondProd](https://cloud.google.com/security/beyondprod)，
+[Binary Authorization for Borg](https://cloud.google.com/security/binary-authorization-for-borg), 
+[SLSA: Supply-chain Levels for Software Artifacts](https://github.com/slsa-framework/slsa)），
+书籍（
+[Building Secure and Reliable Systems](https://sre.google/books/building-secure-reliable-systems/)）
+以及报告（
+[Evolve to zero trust security model with Anthos security](https://www.youtube.com/watch?v=zCVwc3ocYfQ), 
+[Zero Touch Prod](https://www.usenix.org/conference/srecon19emea/presentation/czapinski)）。
+同时也开始将这种零信任理念推广到更多应用场景，包括公有云上的零信任，公有云自身基础设施的零信任，安卓和Chrome自身及其App的开发零信任。
 
 本次分享的内容全部基于以上谷歌已经公开的资料，并未泄漏谷歌公司机密或者违反任何保密协议。本文中的结论仅代表作者个人观点，并不一定是谷歌官方的观点。
 
