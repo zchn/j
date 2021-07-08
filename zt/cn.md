@@ -13,7 +13,7 @@ Permlink: [https://ckev.in/j/zt/cn.html](https://ckev.in/j/zt/cn.html)
 
 本文的笔者是陈志杰，2015至2020年有幸参与了谷歌生产环境零信任（Zero Trust in Production Environments）的理论和实践。在此背景下开发的 Binary Authorization for Borg （BAB） 系统已经在谷歌生产环境中实现了全面覆盖：任何人在生产环境中以任何服务的身份运行任何软件包之前，都必须为目标服务建立一个足够强的BAB安全策略。不符合BAB安全策略的程序将不会被允许以相应服务的身份运行。
 
-![图：Binary Authorization for Borg](img/prodenv.png)
+![图：Binary Authorization for Borg](img/prodenv.png){:width="80%"}
 
 在实现和推广这种生产环境零信任的过程中，BAB团队走了不少弯路，但也收获了很多经验。从2017年开始，BAB团队开始把这些实践经验上升到理论，并陆续发布了一系列的
 白皮书（
