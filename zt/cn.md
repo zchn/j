@@ -158,7 +158,7 @@ Permalink: [https://ckev.in/j/ztcn/](https://ckev.in/j/ztcn/)
 做好零信任，20%靠理论，80%靠实践。零信任的实践方案并不唯一，笔者希望通过分享以上的一例零信任实践，达到抛砖引玉的目的。欢迎大家批评指正！
 
 我的邮箱可以在我的[个人主页](https://ckev.in/)上找到。微信：kzch3n
-![图：微信二维码](img/wechat.png){:width="80%"}
+![图：微信二维码](img/wechat.jpg){:width="80%"}
 
 
 
