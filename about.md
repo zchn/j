@@ -6,7 +6,7 @@ permalink: /about/
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually
 more up-to-date than this page.
 
-I am a Software Development Manager at Amazon NYC, working on AWS [Security Hub](https://aws.amazon.com/security-hub/).
+I was a Software Development Manager at Amazon NYC, working on AWS [Security Hub](https://aws.amazon.com/security-hub/).
 I was a Tech Lead at Google New York, working on
 Google's [Data Protection](https://cloud.google.com/security/binary-authorization-for-borg) infrastructure.
 I got my Ph.D in [Computer Science](https://www.cs.berkeley.edu/)
