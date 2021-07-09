@@ -6,7 +6,7 @@ date: 2021-07-01 10:00:00 +0800
 
 # 零信任实践分享
 
-陈志杰,  前谷歌数据保护团队 Tech Lead, [http://ckev.in/](http://ckev.in/)
+陈志杰,  前谷歌数据保护团队 Tech Lead, wechat: kzch3n
 
 Permalink: [https://ckev.in/j/ztcn/](https://ckev.in/j/ztcn/)
 
