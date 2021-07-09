@@ -82,17 +82,21 @@ Permalink: [https://ckev.in/j/ztcn/](https://ckev.in/j/ztcn/)
 
 ## 零信任部署实例
 
-在本节中，我们提供两个具体的零信任部署实例：第一个是用户如何获取自己的数据（图中的Developer实际应为User），第二个是开发者如何通过修改源代码来改变生产环境中的数据访问行为。谷歌对这两个案例的数据访问控制都遵循零信任的原则。
+在本节中，我们提供两个具体的零信任部署实例：第一个是用户如何获取自己的数据，第二个是开发者如何通过修改源代码来改变生产环境中的数据访问行为。谷歌对这两个案例的数据访问控制都遵循零信任的原则。
 
 ### 用户访问自己的数据
 
-当用户通过Google的服务访问自己的数据时，请求会通过用户和Google Front End(GFE)之间的加密连接（TLS）首先到达GFE。GFE转用更加高效和安全的协议和数据结构将用户请求分发到各个后端服务共同完成用户请求。例如TLS会被换为[Application Layer TLS(ATLS)](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security)。面向用户的口令会被转换为更加安全的End User Context Ticket(EUC)。这些置换旨在根据实际请求降低内部连接和令牌的权限，使得特定的ATLS和EUC只能访问局限于此次请求的数据和权限。详情请参见[BeyondProd](https://cloud.google.com/security/beyondprod)。下图中Developer实际应该是User。
+当用户通过谷歌的服务访问自己的数据时，请求会通过用户和Google Front End(GFE)之间的加密连接（TLS）首先到达GFE。GFE转用更加高效和安全的协议和数据结构将用户请求分发到各个后端服务共同完成用户请求。例如TLS会被换为[Application Layer TLS(ATLS)](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security)。面向用户的口令会被转换为更加安全的End User Context Ticket(EUC)。这些置换旨在根据实际请求降低内部连接和令牌的权限，使得特定的ATLS和EUC只能访问局限于此次请求的数据和权限。
+
+以下为[BeyondProd](https://cloud.google.com/security/beyondprod)原图，图中Developer实际应该是User：
 
 ![图：用户访问自己的数据](img/bp-user-access.svg){:width="80%"}
 
 ### 开发者改变软件数据访问行为
 
-当开发者希望通过改变服务的代码来改变一个服务的数据和权限访问行为时（开发者无法获取生产主机的任意指令运行权限，如SSH）,该代码修改会经过一系列的流程来将对开发者及其团队的信任转化为对新的服务的信任：流程中所有涉及的人员均通过多因子认证来确立身份，代码修改会被一个或以上有审批权限的人评估，只有获得足够多的授权的代码才会被合并入中央代码库，中央代码库的代码会被一个同样受BAB保护的可信编译服务集中编译，测试和签名，编译后的软件会在部署环节通过目标服务的BAB策略认证（比如GMail的服务只能运行代码库特定位置的经过充分代码评估和测试的代码），软件运行时也会根据相应的BAB安全策略进行运行时隔离：不同BAB服务策略管辖的服务会被运行在不同的隔离区。详情请参见[BeyondProd](https://cloud.google.com/security/beyondprod)。
+当开发者希望通过改变服务的代码来改变一个服务的数据和权限访问行为时（开发者无法获取生产主机的任意指令运行权限，如SSH）,该代码修改会经过一系列的流程来将对开发者及其团队的信任转化为对新的服务的信任：流程中所有涉及的人员均通过多因子认证来确立身份，代码修改会被一个或以上有审批权限的人评估，只有获得足够多的授权的代码才会被合并入中央代码库，中央代码库的代码会被一个同样受BAB保护的可信编译服务集中编译，测试和签名，编译后的软件会在部署环节通过目标服务的BAB策略认证（比如GMail的服务只能运行代码库特定位置的经过充分代码评估和测试的代码），软件运行时也会根据相应的BAB安全策略进行运行时隔离：不同BAB服务策略管辖的服务会被运行在不同的隔离区。
+
+以下为[BeyondProd](https://cloud.google.com/security/beyondprod)原图，详情请参见原文:
 
 ![图：开发者改变软件数据访问行为](img/bp-code-change.svg){:width="80%"}
 
