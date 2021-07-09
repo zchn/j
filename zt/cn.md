@@ -86,7 +86,7 @@ Permalink: [https://ckev.in/j/ztcn/](https://ckev.in/j/ztcn/)
 
 ### 用户访问自己的数据
 
-略
+当用户通过Google的服务访问自己的数据时，请求会通过用户和GFE之间的加密连接（TLS）首先到达Google Front End(GFE)。GFE转用更加高效和安全的协议和数据结构将用户请求分发到各个后端服务共同完成用户请求。例如TLS会被换为[Application Layer TLS(ATLS)](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security)。面向用户的口令会被转换为更加安全的End User Context Ticket(EUC)。这些置换旨在根据实际请求降低内部连接和令牌的权限，使得特定的ATLS和EUC只能访问和满足局限于此次访问的数据和权限。详情请参见[BeyondProd](https://cloud.google.com/security/beyondprod)。
 
 ![图：用户访问自己的数据](img/bp-user-access.svg){:width="80%"}
 
