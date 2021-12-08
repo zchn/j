@@ -3,9 +3,9 @@ title: About Me
 permalink: /about/
 ---
 
-You might be looking for this article: [《零信任实践分享》](/j/ztcn/).
-
 # About Kevin Zhijie Chen
+
+You might be looking for this article (in Chinese): [《零信任实践分享》, 2021](/j/ztcn/).
 
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually
 more up-to-date than this page. 
