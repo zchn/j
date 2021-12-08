@@ -2,10 +2,13 @@
 title: About Me
 permalink: /about/
 ---
+
+You might be looking for this article: [《零信任实践分享》](/j/ztcn/).
+
 # About Kevin Zhijie Chen
 
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually
-more up-to-date than this page.
+more up-to-date than this page. 
 
 I was a Software Development Manager at Amazon NYC, working on AWS [Security Hub](https://aws.amazon.com/security-hub/).
 I was a Tech Lead at Google New York, working on
