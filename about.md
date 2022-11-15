@@ -5,8 +5,6 @@ permalink: /about/
 
 # About Kevin Zhijie Chen
 
-You might be looking for this article (in Chinese): [《零信任实践分享》, 2021](/j/ztcn/).
-
 My [LinkedIn](https://www.linkedin.com/in/kevinchn) page is usually
 more up-to-date than this page. 
 
